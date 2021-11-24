@@ -17,8 +17,8 @@ public class LeetCode70 {
 
     }
     public static void main(String[] args) {
-        System.out.println("n = 2, result = " + climbStairs(2));
-        System.out.println("n = 3, result = " + climbStairs(3));
-        System.out.println("n = 4, result = " + climbStairs(4));
+        for (int i = 3; i <= 5; i++) {
+            System.out.println("n = " + i + ", result = " + climbStairs(i));
+        }
     }
 }
